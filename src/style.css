@@ -9,7 +9,7 @@ body{
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: #141414;
+	background-color: #101010;
 	overflow-x: hidden;
 
 }
@@ -34,7 +34,8 @@ body{
 
 .top-nav{
 	height: 4vw;
-	background-color: black;
+	background-color: white
+  ;
 }
 
 @media screen and (max-height: 450px) {
@@ -46,8 +47,8 @@ body{
   margin-left: 15vw;
   padding: 0px 10px;
   min-height: 350px;
-  background-color: black; 
-  color: white;
+  background-color: white; 
+  color: black;
 }
 
 .overview{
@@ -65,12 +66,16 @@ body{
 .main-child-left{
 	width: 50%;
 	height: 40vh;
-	background-color: red;
+	background-color: #101010;
+  margin: 24px 12px 24px 24px;
+  border-radius: 25px;
 }
 .main-child-right{
 	width: 50%;
 	height: 40vh;
-	background-color: blue;
+	background-color: #101010;
+  margin: 24px 24px 24px 12px;
+  border-radius: 25px;
 }
 /* variables */
 :root {
