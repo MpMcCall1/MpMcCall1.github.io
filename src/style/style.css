@@ -4,7 +4,7 @@ body{
 
 .page-nav{
 	height: 100vh;
-	width: 20vw;
+	width: 15vw;
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -45,7 +45,7 @@ body{
 
 .page-main {
   height: 100vh;
-  margin-left: 20vw;
+  margin-left: 15vw;
   padding: 0px 10px;
   min-height: 350px;
   background-color: white; 

@@ -1,13 +1,9 @@
-import "./style.css";
-console.log("Hello Webpack");
+import React from "react";
+import ReactDom from "react-dom";
 
-import React, { useState } from "react";
-import { render } from "react-dom";
+import App from "./App.js"
 
-function App() {
-    const [state, setState] = useState("CLICK ME");
-
-    return <button onClick={() => setState("CLICKED")}>{state}</button>;
-}
-
-render(<App />, document.getElementById("root"));
+ReactDom.render(
+<App />, 
+document.getElementById('root')
+);
