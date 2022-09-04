@@ -11,12 +11,9 @@ module.exports={
 	entry: "./src/index.js",
 	target: "web",
 	output: {
-		path: path.resolve(__dirname, 'build'),
+		path: path.resolve("./", 'build'),
 		publicPath: '/',
 		filename: 'bundle.js'
-	},
-	devServer: {
-		contentBase: "./build",
 	},
 	module:{
 		rules:[
