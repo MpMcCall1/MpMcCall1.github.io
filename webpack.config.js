@@ -2,17 +2,22 @@ const HTMLWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
 module.exports={
-	mode: "development",
+	mode: 'production',
+    performance: {
+        hints: false,
+        maxEntrypointSize: 512000,
+        maxAssetSize: 512000
+    },
 	entry: "./src/index.js",
 	target: "web",
+	output: {
+		path: "/MpMcCall1.github.io",
+		filename: 'bundle.js'
+	},
 	devServer: {
 		port: "9500",
 		open: true,
 		liveReload: true
-	},
-	output: {
-		path: path.resolve(__dirname, 'dist'),
-		filename: 'bundle.js'
 	},
 	module:{
 		rules:[
