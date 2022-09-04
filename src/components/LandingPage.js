@@ -1,35 +1,26 @@
-import "../style/style.css";
+import "../style/landingPage.css";
+import "../style/nav.css";
+import photo1 from '../../public/icons/IMG_8909.jpg';
+
 import React, { Component, useState } from "react";
+
+import Nav from "./Nav";
 
 const LandingPage = () => {
     return(
         <div>
-        <header class="page-nav">
-            <h2 class="logo">
-                Matt McCall
-            </h2>
-            <a href="/" class="nav">whoami</a>
-            <a href="" class="nav">projects</a>
-            <a href="" class="nav">resume download</a>
-        </header>
-        <nav class="top-nav">Nav</nav>
-            <main class="page-main">
-            <div class="overview">
-            whoami
+            <Nav />
+
+            <div className="whoami-container">
+                <div className="whoami">
+                    <h2>whoami<span>_</span></h2>
+                    <p>I am a software engineer fixated on <b>web development</b>. I graduated from Mississippi State University with a degree in <b>Software Engineering</b>. I enjoy designing systems at any level of a technical stack. My main language is javascript, but I am a <b>polyglot engineer</b>. Rapidly switching between languages is something I find to be gratifying. The goal of this website is to display projects outside of my professional career. I do not want this to be yet another portfolio website. I am hoping to make this website as <b>fun</b> as possible.</p>
+                    <br></br>
+                    <p>Outside of advancing my professional career, I am attempting to enjoy all of the things that life has to offer. Spending time with friends and family, traveling, golf, taking care of my cat, runescape, and attempting to <b>learn something new every day</b>.</p>
+                </div>
+                <img src={photo1}>
+                </img>
             </div>
-            <div class="main-container">
-            <p>I am a developer diving into web development. The goal of this website is to display projects outside of my job. Here is a working list of things I want to do.</p>
-            </div>
-            <div class="list">
-            <ul>
-                <li> -Fix UI/UX of this dumpster fire</li>
-                <li> -API GO Development/Implementation</li>
-                <li> -Connect to cloud db with login and auth</li>
-                <li> -Docker/Kubernetes</li>
-                <li> -If I am feeling good convert the whole thing to Rust/yew.rs</li>
-            </ul>
-            </div>
-        </main>
         </div>
     );
 }
