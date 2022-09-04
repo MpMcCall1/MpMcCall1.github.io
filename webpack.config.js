@@ -40,6 +40,6 @@ module.exports={
 		]
 	},
 	 plugins:[
-	 	new HTMLWebpackPlugin({template: "./src/index.html"})
+	 	new HTMLWebpackPlugin({template: "./index.html"})
 	 ]
 };

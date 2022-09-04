@@ -70,7 +70,6 @@ body{
   height: 600px;
   object-fit: cover;
   clip-path: circle();
-  /* border: 5px solid #10100F; */
 }
 
 
