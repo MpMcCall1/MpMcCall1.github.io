@@ -10,7 +10,6 @@ const LandingPage = () => {
     return(
         <div>
             <Nav />
-
             <div className="whoami-container">
                 <div className="whoami">
                     <h2>whoami<span>_</span></h2>

@@ -13,7 +13,6 @@ const App = () => {
                     <LandingPage />
                 </>
             }/>
-            <Route path="/projects" element={<div>Projects</div>} />
         </Routes>
     </BrowserRouter>
     );

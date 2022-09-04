@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "mpmccall1.github.io",
   "version": "1.0.0",
   "homepage": "https://mpmccall1.github.io/",
   "description": "",
@@ -14,7 +14,7 @@
     "dev": "webpack --mode development",
     "start": "webpack serve --open "
   },
-  "author": "",
+  "author": "Matthew McCall",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.13.0",
