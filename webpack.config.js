@@ -11,13 +11,12 @@ module.exports={
 	entry: "./src/index.js",
 	target: "web",
 	output: {
-		path: "/MpMcCall1.github.io",
+		path: path.resolve(__dirname, 'build'),
+		publicPath: '/',
 		filename: 'bundle.js'
 	},
 	devServer: {
-		port: "9500",
-		open: true,
-		liveReload: true
+		contentBase: "./build",
 	},
 	module:{
 		rules:[
@@ -33,13 +32,13 @@ module.exports={
 			}]
 		},
 		{
-			test: /\.js$/,
+			test: /\.(js|jsx)$/,
         		exclude: /node_modules/,
         		use: ["babel-loader"]
 		}
 		]
 	},
 	 plugins:[
-	 	new HTMLWebpackPlugin({template: "./index.html"})
+	 	new HTMLWebpackPlugin({template: path.resolve("./index.html")}),
 	 ]
 };
