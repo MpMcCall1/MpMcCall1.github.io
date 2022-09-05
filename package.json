@@ -1,7 +1,7 @@
 {
   "name": "mpmccall1.github.io",
   "version": "1.0.0",
-  "homepage": "https://mpmccall1.github.io/",
+  "homepage": "https://mpmccall1.github.io/mpmccall1.github.io",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "eslint": "eslint \"src/**/*.{js,jsx}\"",
     "build": "webpack --config webpack.config.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "dev": "webpack --mode development",
     "start": "webpack serve --open "
   },
