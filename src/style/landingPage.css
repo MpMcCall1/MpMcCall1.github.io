@@ -89,8 +89,8 @@ body{
   .whoami{
     padding-top: 6vh;
     font-family: 'Segoe eUI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #dddddd;
-    border-radius: 50px;
+    background-color: #ffffff;
+    border-radius: 0;
     width: 100%;
   }
   .whoami h2{
@@ -107,7 +107,7 @@ body{
     font-size: 1.25em;
     margin: 8vh 3vw 6vh 3vw;
     width: 90%;
-    color: #222831;
+    color: #333333;
   }
 }
 
