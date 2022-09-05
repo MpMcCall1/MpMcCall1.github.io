@@ -71,5 +71,44 @@ body{
   object-fit: cover;
   clip-path: circle();
 }
-
+@media screen and (max-width: 1400px){
+  .whoami-container img{
+    display: none;
+  }
+  .whoami-container {
+    /* margin-top: 15vh;
+    margin-left: 2vw; */
+    margin: 15vh 2vw 0 2vw;
+    height: auto;
+    width: 95vw;
+    min-height: 350px; 
+    background-color: #ffffff; 
+    color: #ffffff;
+    display: inline-flex;
+    border: 2px solid black;
+  }
+  .whoami{
+    padding-top: 6vh;
+    font-family: 'Segoe eUI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dddddd;
+    border-radius: 50px;
+    width: 100%;
+  }
+  .whoami h2{
+    overflow: hidden;
+    font-size: 3em;
+    align-items: flex-start;
+    margin: 8vh 0 0 3vw;
+    color: #222831;
+    font-weight: bold;
+    animation: typing 2s steps(50, end);
+    width: auto;
+  }
+  .whoami p{
+    font-size: 1.25em;
+    margin: 8vh 3vw 6vh 3vw;
+    width: 90%;
+    color: #222831;
+  }
+}
 
