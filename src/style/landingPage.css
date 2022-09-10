@@ -16,7 +16,6 @@ body{
 .whoami{
   padding-top: 6vh;
   font-family: 'Segoe eUI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #dddddd;
   border-radius: 50px;
 }
 .whoami h2{
@@ -110,4 +109,3 @@ body{
     color: #333333;
   }
 }
-

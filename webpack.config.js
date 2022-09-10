@@ -15,23 +15,28 @@ module.exports={
 		publicPath: '/',
 		filename: 'bundle.js'
 	},
+	devServer: {
+		port: "9500",
+		open: true,
+		liveReload: true
+	},
 	module:{
 		rules:[
 		{
 			test: /\.css$/,
-			use: ["style-loader", "css-loader"]
+			use: ["style-loader", "css-loader"],
 		},
 		{
 			test: /\.(png|jpg|gif)$/,
 			use: [{
 				loader: 'file-loader',
-				options: {}
+				options: {},
 			}]
 		},
 		{
 			test: /\.(js|jsx)$/,
         		exclude: /node_modules/,
-        		use: ["babel-loader"]
+        		use: ["babel-loader"],
 		}
 		]
 	},
