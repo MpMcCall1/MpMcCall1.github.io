@@ -1,5 +1,5 @@
 .page-nav{
-	height: 8vh;
+	height: auto;
 	width: 100vw;
     display: flex;
     position: fixed; 
@@ -18,17 +18,24 @@
 	display: inline-flex;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.page-nav a:last-child{
+    margin-right: 10vw;
+} 
 .page-nav h2{
 	padding-left: 25px;
     color: #191919;
     font-size: 30px;
-    flex-grow: 2;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-grow: 2;
+}
+.page-nav img{
+    width: 200px;
+    height: auto;
 }
 
 
 .page-nav a:hover{
-	color: #cccccc;
+	color: #792936;
 }
 
  @media screen and (max-width: 500px) {

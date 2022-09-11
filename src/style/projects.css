@@ -1,0 +1,8 @@
+.projects-container{
+    display: flex;
+    width:auto;
+    height: 90vh;
+    border: 2px #000000 solid;
+    margin-top: 10vh;
+    justify-content: center;
+}

@@ -1,6 +1,7 @@
 import React from "react"
 
 import "../style/nav.css";
+import githubIcon from "../../public/icons/github-icon.png";
 
 const Nav = () => {
     return(
@@ -8,10 +9,10 @@ const Nav = () => {
         <h2 className="logo">
             MM
         </h2>
-        <a href="/" className="nav">whoami</a>
-        <a href="" className="nav">blog</a>
-        <a href="" className="nav">projects</a>
-        <a href="" className="nav">resume download</a>
+        <a href="#whoami" className="nav">whoami</a>
+        {/* <a href="" className="nav">blog</a> */}
+        <a href="#projects" className="nav">projects</a>
+        {/* <a href="" className="nav">resume download</a> */}
     </div>
     )
 }

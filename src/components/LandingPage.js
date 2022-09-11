@@ -5,10 +5,11 @@ import photo1 from '../../public/icons/IMG_8909.jpg';
 import React, { Component, useState } from "react";
 
 import Nav from "./Nav";
+import Projects from "./projects";
 
 const LandingPage = () => {
     return(
-        <div>
+        <div id="whoami">
             <Nav />
             <div className="whoami-container">
                 <div className="whoami">
@@ -20,6 +21,7 @@ const LandingPage = () => {
                 <img src={photo1}>
                 </img>
             </div>
+            <Projects />
         </div>
     );
 }
